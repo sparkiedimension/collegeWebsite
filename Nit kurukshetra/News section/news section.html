@@ -1,0 +1,57 @@
+<!..NEWS SECTION..>
+
+<style>
+.bt {
+    border: none;
+    color: #ffffff;
+    padding: 14px 28px;
+    cursor: pointer;
+background:#990000;
+    font-size:20px;
+    font-weight:bold;
+    opacity:0.75;
+display:inline-block;
+width:328px;
+}
+.bt:hover
+{
+opacity:1;
+color:#990000;
+background:white;
+}
+
+iframe{
+    opacity: 0.75;
+}
+
+iframe:hover{
+    opacity: 1;
+}
+</style>
+<div style="position:absolute; top:600px; left:200px; width:328px; height:40px; padding: 3px;">
+<button class="bt" onclick="f1()">News</button></div>
+<div style="position:absolute; top:600px; left:533px; width:328px; height:40px; padding: 3px;">
+<button class="bt" onclick="f2()">Notice</button></div>
+<div style="position:absolute; top:600px; left:866px; width:328px; height:40px; padding: 3px;">
+<button class="bt" onclick="f3()">Announcement</button></div>
+
+
+<div style="background-color:transparent; position:absolute; top:650px; left: 203px; width:995px; height:160px;"><iframe src="notice1.html" width="995" height="160" style="border:none;" scrolling="no" id="myframe"></iframe></div>
+
+<script>
+function f1() {
+    document.getElementById("myframe").src = "notice1.html";
+}
+function f2() {
+    document.getElementById("myframe").src = "notice2.html";
+}
+function f3() {
+    document.getElementById("myframe").src = "notice3.html";
+}
+
+</script>
+
+
+
+
+<!..NEWS SECTION ENDS..>

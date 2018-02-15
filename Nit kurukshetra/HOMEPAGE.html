@@ -1,0 +1,221 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="dropdown.css">
+<style>
+#banner_area > img /* Use this to resize all image's container */
+{
+position:absolute;
+top:235px;
+left:0.5%;
+    width:99%;
+    height:700px;
+
+}
+
+img.icon
+{
+opacity:0.75;
+}
+.btn {
+border-radius:0px;
+    border: none;
+    color:white;
+ padding:14px 15px;
+    cursor: pointer;
+    background:transparent;
+    font-size:1.2vw;
+    font-weight:bold;
+}
+.btn:hover {
+background:white;
+color:#990000;}
+
+
+
+</style>
+<title>NIT Kurukshetra</title>
+</head>
+<body onload="a()" style="background:#990000;">
+<div>
+<img src="logo1.png" height="100" width="20%" alt="nit kurukshetra" style="position:absolute;
+margin-left:15;
+margin-top:10;"/>
+<p style="position:absolute; font-size:2.5vw; margin-left:22%; margin-top:25px; font-weight:bold; font-family:verdana; color:#ffffff;">National Institute Of Technology , Kurukshetra</p>
+<p style="position:absolute; font-size:1vw; margin-left:22%; margin-top:70px; font-weight:bold; font-family:verdana; color:#ffffff;">INSTITUTE OF NATIONAL IMPORTANCE</p>
+</div>
+
+
+<div style="background:transparent; position:absolute; top:142px; left:6%;">
+<button class="btn" onclick="window.open('HOMEPAGE.html', '_self')">Home</button>
+</div>
+<div class="in" style="background:transparent; position:absolute; left:14%; top:142px;">
+<button class="btn" onclick="window.open('institute.htm', '_self')">Institute</button>
+<div class="inb">
+<a href="bottom2.htm#about nitkkr" target="_blank">About NIT KKR</a>
+<a href="bottom2.htm#mission" target="_blank">Mission & Vision</a>
+<a href="bottom2.htm#infrastructure" target="_blank">Infrastructure</a>
+<a href="bottom2.htm#location" target="_blank">Location</a>
+</div>
+</div>
+<div class="acad" style="background:transparent; position:absolute; top:142px; left:24%;">
+<button class="btn" onclick="window.open('academic.html', '_self')">Academic</button>
+<div class="acadb">
+<a href="bottom22.html#rs" target="_blank">Rollsheet</a>
+<a href="bottom22.html#FE" target="_blank">Fees and Structure</a>
+<a href="bottom22.html#AC" target="_blank">Academic calender</a>
+<a href="bottom22.html#TT" target="_blank">Time table</a>
+<a href="bottom22.html#ED" target="_blank">Exam datesheet</a>
+<a href="bottom22.html#RS" target="_blank">Result</a>
+</div>
+</div>
+<div class="admin" onclick="window.open('administration.html', '_self')" style="background:transparent; position:absolute; left:34%; top:142px;">
+<button class="btn">Administration</button>
+<div class="adminb">
+<a href="administration.html">Director</a>
+<a href="administration registrar.html">Registrar</a>
+<a href="administration deans.html">Deans</a>
+<a href="administration other officers.html">Other officers</a>
+<a href="administration organization.html">Organisation Structure</a>
+</div>
+</div>
+<div class="dep" style="background:transparent; position:absolute; left:46%; top:142px;">
+<button class="btn" onclick="window.open('department.html', '_self')">Departments</button>
+<div class="depb">
+<a href="cs.html" target="_blank">Computer Department</a>
+<a href="civil.html" target="_blank">Civil Department</a>
+<a href="mech.html" target="_blank">Mechanical Department</a>
+<a href="ee.html" target="_blank">Electrical Department</a>
+<a href="ece.html" target="_blank">ECE Department</a>
+</div>
+</div>
+<div class="sec" style="background:transparent; position:absolute; left:56%; top:142px;">
+<button class="btn" onclick="window.open('library.html', '_self')">Sections</button>
+<div class="secb">
+<a href="library.html">Library</a>
+<a href="sports.html">Sports</a>
+<a href="ccn.html">CCN</a>
+</div>
+</div>
+<div class="tp" style="background:transparent; position:absolute; left:64%; top:142px;">
+<button class="btn" onclick="window.open('introplacement.html', '_self')">Training and Placement</button>
+<div class="tpb">
+<a href="introplacement.html">Training and placement cell</a>
+<a href="majorrecruiters.html">Major Recruiters</a>
+<a href="stat.html">Statistics</a>
+</div>
+</div>
+<div class="sa" style="background:transparent; position:absolute; left:81%; top:142px;">
+<button class="btn" onclick="window.open('confluence.html', '_self')">Students Activities</button>
+<div class="sab">
+<a href="confluence.html">Confluence&emsp;&emsp;&emsp;&emsp;</a>
+<a href="techspardha.html">Techspardha</a>
+<a href="ts.html">Technical Societies</a>
+</div>
+</div>
+
+
+
+<div style="position:absolute; top:195px; background:black; width:99%; left:0.5%; height:40px;">
+<marquee onmouseover="this.stop()" onmouseout="this.start()" style="font-size: 20px;  color:white; height:100%" behavior="scroll" scrollamount="10" direction="left">
+<a href="http://nitkkr.ac.in/docs/ICSCC-2017%20CFP.pdf" target="_blank" style="color:white;">Sixth International Conference on Smart Computing & Communications (ICSCC 2017): Scopus Indexed Date Extended until 21st August 2017</a>
+</marquee>
+</div>
+
+
+
+<div id="banner_area">
+<img src="img1.jpg" class="mySlides"/>
+<img src="pic8.jpg" class="mySlides"/>
+<img src="img2.jpg" class="mySlides"/>
+<img src="5.gif" class="mySlides"/>
+<img src="6.jpg" class="mySlides"/>
+<img src="111.jpg" class="mySlides"/>
+<img src="ddd.jpg" class="mySlides"/>
+<img src="img4.jpg" class="mySlides"/>
+</div>
+<script>
+var myIndex = 0;
+imgslider();
+
+function imgslider() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(imgslider, 2000); // Change image every 2 seconds
+}
+</script>
+
+
+
+
+<!..NEWS SECTION..>
+
+<style>
+.bt {
+    border: none;
+    color: #990000;
+    padding: 8px 20px;
+    cursor: pointer;
+background:transparent;
+    font-size:1.6vw;
+    font-weight:bold;
+    opacity:0.75;
+display:inline-block;
+}
+.bt:hover
+{
+opacity:1;
+color:#ffffff;
+background:#990000;
+}
+
+iframe{
+    opacity: 0.75;
+width:86%;
+}
+
+iframe:hover{
+    opacity: 1;
+}
+
+</style>
+<div  style="background:white; opacity:0.75; position:absolute; top:695px; left:13%; height:40px; width:74%;">
+<button class="bt" onclick="f1()" style="position:absolute; top:0px; left:2%; height:40px;">News</button>
+<button class="bt" onclick="f2()" style="position:absolute; top:0px; left:15%; height:40px;">Notice</button>
+<button class="bt" onclick="f3()" style="position:absolute; top:0px; left:28.5%; height:40px;">Announcement</button>
+</div>
+
+<div style="background-color:transparent; position:absolute; top:745px; left: 13%; width:86%; height:160px;"><iframe src="News section/notice1.html" height="160" style="border:none;" scrolling="no" id="myframe"></iframe></div>
+
+<script>
+function f1() {
+    document.getElementById("myframe").src = "News section/notice1.html";
+}
+function f2() {
+    document.getElementById("myframe").src = "News section/notice2.html";
+}
+function f3() {
+    document.getElementById("myframe").src = "News section/notice3.html";
+}
+
+</script>
+
+
+
+
+<!..NEWS SECTION ENDS..>
+
+
+<div style="background:black; position:absolute; top:930px; width:99%; height:80px; left:0.5%;">
+<a href="https://www.facebook.com/nitkkrofficial"><img src="face1.png" class="icon" style="position:absolute; top:12px; left:95%;  width:3%;"/></a>
+<a href="https://www.google.co.in/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwiWhqy_gMrWAhXBwI8KHclKBqUQFgglMAA&url=https%3A%2F%2Ftwitter.com%2Flogin%3Flang%3Den&usg=AFQjCNG1hDsWW-Dn0wZwUoCpYs4_8Hp5Sw"><img src="twitter.png" class="icon" style="position:absolute; top:12px; left:91%;  width:3%;"/></a>
+<a href="https://www.youtube.com/channel/UCeNBt-YR8d6xpfGtna8-RSg"><img src="youtube-icon.png" class="icon" style="position:absolute; top:12px; left:87%;  width:3%;"/></a>
+<a href="https://plus.google.com"><img src="google-plus-icon.png" class="icon" style="position:absolute; top:12px; left:83%;  width:3%;"/></a>
+</div>
+</body>
+</html>

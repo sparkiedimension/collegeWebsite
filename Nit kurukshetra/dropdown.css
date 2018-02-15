@@ -1,0 +1,166 @@
+.inb{
+    display: none;
+    position: absolute;
+    background-color:white;
+    font-size:1.3vw;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.inb a {
+    color: #990000;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-weight:bold;
+}
+
+.inb a:hover {background-color:#990000;
+color:white;}
+
+.in:hover .inb{
+    display: block;
+}
+.acadb{
+    display: none;
+    position: absolute;
+    background-color:white;
+    font-size:1.3vw;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.acadb a {
+    color: #990000;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-weight:bold;
+}
+
+.acadb a:hover {background-color:#990000;
+color:white;}
+
+.acad:hover .acadb{
+    display: block;
+}
+
+.adminb{
+    display: none;
+    position: absolute;
+    background-color:white;
+    font-size:1.3vw;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.adminb a {
+    color: #990000;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-weight:bold;
+}
+
+.adminb a:hover {background-color:#990000;
+color:white;}
+
+.admin:hover .adminb{
+    display: block;
+}
+
+.depb{
+    display: none;
+    position: absolute;
+   background-color:white;
+    font-size:1.3vw;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.depb a {
+    color: #990000;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-weight:bold;
+}
+
+.depb a:hover {background-color:#990000;
+color:white;}
+
+.dep:hover .depb{
+    display: block;
+}
+
+.secb{
+    display: none;
+    position: absolute;
+    background-color:white;
+    font-size:1.3vw;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.secb a {
+    color: #990000;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-weight:bold;
+}
+
+.secb a:hover {background-color:#990000;
+color:white;}
+
+.sec:hover .secb{
+    display: block;
+}
+
+.tpb{
+    display: none;
+    position: absolute;
+    background-color:white;
+    font-size:1.3vw;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.tpb a {
+    color: #990000;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-weight:bold;
+}
+
+.tpb a:hover {background-color:#990000;
+color:white;}
+
+.tp:hover .tpb{
+    display: block;
+}
+
+.sab{
+    display: none;
+    position: absolute;
+    background-color:white;
+    font-size:1.3vw;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.sab a {
+    color: #990000;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-weight:bold;
+}
+
+.sab a:hover {background-color:#990000;
+color:white;}
+
+.sa:hover .sab{
+    display: block;
+}
